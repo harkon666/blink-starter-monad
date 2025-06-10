@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: 'harkon-mon-donate',
     images: [
       {
-        url: '/donate-mon.jpg', // Path ke gambar di folder public/
+        url: '/donate-mon.png', // Path ke gambar di folder public/
         width: 512,
         height: 451,
         alt: 'minta mon',
