@@ -16,7 +16,24 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Harkon butuh makan",
-  description: "Bang donasi MON nya bang pls",
+  description: "Bang donasi MON nya bang pls saya lapar",
+  metadataBase: new URL('https://blink-starter-monad-navy.vercel.app'),
+  openGraph: {
+    title: 'Harkon butuh makan',
+    description: 'Bang donasi MON nya bang pls saya lapar',
+    url: 'https://blink-starter-monad-navy.vercel.app',
+    siteName: 'harkon-mon-donate',
+    images: [
+      {
+        url: '/donate-mon.jpg', // Path ke gambar di folder public/
+        width: 512,
+        height: 451,
+        alt: 'minta mon',
+      },
+    ],
+    locale: 'id_ID',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
